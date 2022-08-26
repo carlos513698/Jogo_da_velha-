@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+</head>
+<style type="text/css">
+
+    #mostrador{
+        margin: auto;
+        margin-top: 40px;
+        width: 252px;
+        height: 80px;
+    }
+
+    .espaco{
+        width:80px;
+        height: 60px;
+        border:2px solid #000;
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .tabuleiro{
+        width: 252px;
+        height: 252px;
+        margin: auto;
+    }
+    
+</style>
+
+<body>
+    <div id="mostrador">
+        <p style="float: left;" margin-right: 10px >Vez do Jogador:</p>
+        <img src="x.jpeg" border = "0" height="50" alt="cachorrinho significa o X">
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" jogado=""></div>
+        <div id="a2" class="espaco" jogado=""></div>
+        <div id="a3" class="espaco" jogado=""></div>
+
+        <div id="b1" class="espaco" jogado=""></div>
+        <div id="b2" class="espaco" jogado=""></div>
+        <div id="b3" class="espaco" jogado=""></div>
+
+        <div id="c1" class="espaco" jogado=""></div>
+        <div id="c2" class="espaco" jogado=""></div>
+        <div id="c3" class="espaco" jogado=""></div>
+    </div>
+
+    <script type="text/Javascript" src="game.js"></script>
+    
+</body>
+</html>
